@@ -16,7 +16,7 @@ int main()
     
     *numPtr =10; //포인터를 역참조한 뒤 값 할당
     
-    printf("%d\n",*numPtr); //포인터를 역참조하여 메모리에 저장된 값 출력
+    printf("%d\n",*numPtr); //포인터를 역참조하여 메모리에 저장된 값 출력 
     
     free(numPtr); //동적 메모리 해제
     
